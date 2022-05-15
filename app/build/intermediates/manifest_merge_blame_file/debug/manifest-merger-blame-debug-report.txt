@@ -1,0 +1,126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pixels.iniciols"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:6:5-66
+11-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:8:5-31:19
+14        android:allowBackup="true"
+14-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:9:13-39
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.5.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/062235506723b4139567f7f9df5c99ab/core-1.5.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:10:13-47
+18        android:label="@string/app_name"
+18-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:11:13-45
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:12:13-58
+20        android:supportsRtl="true"
+20-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:13:13-39
+21        android:testOnly="true"
+22        android:theme="@style/Theme.InicioLS" >
+22-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:14:13-50
+23        <activity
+23-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:16:9-20:20
+24            android:name="com.pixels.iniciols.Menu_Inicio"
+24-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:17:17-44
+25            android:label="@string/title_activity_menu__inicio"
+25-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:18:17-68
+26            android:theme="@style/AppTheme.NoActionBar" >
+26-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:19:17-60
+27        </activity>
+28        <activity
+28-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:21:9-30:20
+29            android:name="com.pixels.iniciols.MainActivity"
+29-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:22:17-45
+30            android:exported="true"
+30-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:23:17-40
+31            android:theme="@style/AppTheme.NoActionBar" >
+31-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:24:17-60
+32            <intent-filter>
+32-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:25:13-29:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:26:17-68
+33-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:26:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:28:17-76
+35-->/home/raynor/Documentos/IncioLS/app/src/main/AndroidManifest.xml:28:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[com.squareup.picasso:picasso:2.8] /home/raynor/.gradle/caches/transforms-2/files-2.1/225c208ddee5872db91725f7fb69926a/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
+40            android:name="com.squareup.picasso.PicassoProvider"
+40-->[com.squareup.picasso:picasso:2.8] /home/raynor/.gradle/caches/transforms-2/files-2.1/225c208ddee5872db91725f7fb69926a/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
+41            android:authorities="com.pixels.iniciols.com.squareup.picasso"
+41-->[com.squareup.picasso:picasso:2.8] /home/raynor/.gradle/caches/transforms-2/files-2.1/225c208ddee5872db91725f7fb69926a/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
+42            android:exported="false" />
+42-->[com.squareup.picasso:picasso:2.8] /home/raynor/.gradle/caches/transforms-2/files-2.1/225c208ddee5872db91725f7fb69926a/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
+43
+44        <activity
+44-->[com.google.android.gms:play-services-auth:20.2.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/54914d2f2cddce0e178940d443983370/play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+45            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+45-->[com.google.android.gms:play-services-auth:20.2.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/54914d2f2cddce0e178940d443983370/play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+46            android:excludeFromRecents="true"
+46-->[com.google.android.gms:play-services-auth:20.2.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/54914d2f2cddce0e178940d443983370/play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+47            android:exported="false"
+47-->[com.google.android.gms:play-services-auth:20.2.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/54914d2f2cddce0e178940d443983370/play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+48            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+48-->[com.google.android.gms:play-services-auth:20.2.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/54914d2f2cddce0e178940d443983370/play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+49        <!--
+50            Service handling Google Sign-In user revocation. For apps that do not integrate with
+51            Google Sign-In, this service will never be started.
+52        -->
+53        <service
+53-->[com.google.android.gms:play-services-auth:20.2.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/54914d2f2cddce0e178940d443983370/play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+54            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+54-->[com.google.android.gms:play-services-auth:20.2.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/54914d2f2cddce0e178940d443983370/play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+55            android:exported="true"
+55-->[com.google.android.gms:play-services-auth:20.2.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/54914d2f2cddce0e178940d443983370/play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+56            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+56-->[com.google.android.gms:play-services-auth:20.2.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/54914d2f2cddce0e178940d443983370/play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+57            android:visibleToInstantApps="true" />
+57-->[com.google.android.gms:play-services-auth:20.2.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/54914d2f2cddce0e178940d443983370/play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+58
+59        <activity
+59-->[com.google.android.gms:play-services-base:18.0.1] /home/raynor/.gradle/caches/transforms-2/files-2.1/48c13cdab8b8df64cb0879fbea26a9fe/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+60            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+60-->[com.google.android.gms:play-services-base:18.0.1] /home/raynor/.gradle/caches/transforms-2/files-2.1/48c13cdab8b8df64cb0879fbea26a9fe/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+61            android:exported="false"
+61-->[com.google.android.gms:play-services-base:18.0.1] /home/raynor/.gradle/caches/transforms-2/files-2.1/48c13cdab8b8df64cb0879fbea26a9fe/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.google.android.gms:play-services-base:18.0.1] /home/raynor/.gradle/caches/transforms-2/files-2.1/48c13cdab8b8df64cb0879fbea26a9fe/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+63
+64        <meta-data
+64-->[com.google.android.gms:play-services-basement:18.0.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/97510187bd53c059069610913a399791/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+65            android:name="com.google.android.gms.version"
+65-->[com.google.android.gms:play-services-basement:18.0.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/97510187bd53c059069610913a399791/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+66            android:value="@integer/google_play_services_version" />
+66-->[com.google.android.gms:play-services-basement:18.0.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/97510187bd53c059069610913a399791/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+67
+68        <provider
+68-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+69            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+70            android:authorities="com.pixels.iniciols.lifecycle-process"
+70-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+71            android:exported="false"
+71-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+72            android:multiprocess="true" />
+72-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/raynor/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+73    </application>
+74
+75</manifest>

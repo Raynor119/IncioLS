@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             try {
                 task.getResult(ApiException.class);
 
-                Intent intent =new Intent(MainActivity.this,Menu_Incio.class);
+                Intent intent =new Intent(MainActivity.this,Menu_Inicio.class);
                 startActivity(intent);
                 finish();
 
@@ -55,8 +55,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onclic(View view){
-        Intent intent =new Intent(MainActivity.this,Menu.class);
-        startActivity(intent);
-        finish();
+
     }
 }
